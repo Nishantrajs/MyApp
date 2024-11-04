@@ -9,7 +9,7 @@ public class Dev
 {
     @Autowired
     @Qualifier("desktop")
-    private Computer comp;
+    private Computer computer;
 
     /*private Laptop laptop; Constructor Injection (Better to use)
     public Dev(Laptop laptop)
@@ -25,7 +25,7 @@ public class Dev
 
     public void build()
     {
-        comp.compile();
+        computer.compile();
 
         System.out.println("Working on Awesome Project");
     }
