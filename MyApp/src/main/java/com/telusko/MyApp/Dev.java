@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class Dev
 {
     @Autowired
-    @Qualifier("laptop")
+    @Qualifier("desktop")
     private Computer comp;
 
     /*private Laptop laptop; Constructor Injection (Better to use)
